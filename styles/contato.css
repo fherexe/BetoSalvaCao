@@ -1,2 +1,11 @@
+.linktree {
+    display: flex;
+    flex-direction: column;
+};
 
+
+.linktree span {
+    background-color: blue;
+    display: block;
+}
 
