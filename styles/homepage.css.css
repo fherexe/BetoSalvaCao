@@ -4,20 +4,6 @@ main {
 }
 
 
-#section0 {
-    display: flex;
-    min-height: 90vh;
-    padding: 0 10%;
-    align-items: center;
-    justify-content: left;
-    background-image: url(/web/20230723214157im_/https://betosalvacao.org/img/home/bgmain.jpeg);
-    background-size: cover;
-    background-position: center;
-    background-repeat: no-repeat;
-    color: #fff;
-    background-color: red;
-}
-
 .section0-txt p {
     font-size: max(1.2em, 1.4vw);
 }
