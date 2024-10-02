@@ -1,0 +1,29 @@
+main {
+    padding: 5%;
+}
+
+main img {
+    width: 100%;
+}
+
+blockquote {
+    color: black;
+    background-color: rgb(189, 187, 182);
+    padding: 30px;
+    border: 1px solid rgba(0, 0, 0, 0.555);
+    text-align: justify;
+}
+
+h1  {
+    font-size: max(2em, 3vw);
+    color: var(--color1);
+    font-weight: 600;
+    line-height: 45px;
+}
+
+strong {
+
+color: black;
+font-weight: bolder;
+
+}

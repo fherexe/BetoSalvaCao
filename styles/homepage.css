@@ -1,0 +1,475 @@
+/* -------------------------------- Section 0 Introdução----------------- */
+
+#section0 {
+    display: flex;
+    min-height: 80vh;
+    padding: 0 10%;
+    align-items: center;
+    justify-content: left;
+    background-image: url(/img/home/bgmain.png);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    color: #fff;
+}
+
+.section0-txt p {
+    font-size: max(1.2em, 1.4vw);
+}
+
+.section0-txt span {
+    display: block;
+}
+
+#section0 h1 {
+    font-size: max(2.2em, 3.3vw);
+    font-weight: 600;
+}
+
+/* ------------------------------- Section 1 Resumo Beto ------------------------- */
+#section1 {
+    display: flex;
+    min-height: 100vh;
+    padding: 5% 15%;
+    align-items: center;
+    justify-content: space-around;
+    gap: 5%;
+}
+
+#section1 h2 {
+    font-size: max(1.8em, 2.6vw);
+    color: var(--color1);
+    font-weight: 600;
+}
+
+#section1 p {
+    word-wrap: break-word;
+    max-width: 500px;
+}
+
+#section1 img {
+    width: 340px;
+    border-radius: 10px;
+    box-shadow: 2px 3px 7px 0px rgba(0, 0, 0, 0.404);
+}
+
+@media screen and (max-width: 850px) {
+    #section1 {
+        flex-direction: column;
+        align-items: initial;
+        padding: 15% 5%;
+    }
+
+    #section1 h1 {
+        line-height: 36px;
+    }
+
+    #section1 img {
+        margin-top: 13%;
+        width: 100%;
+    }
+}
+
+/* --------------------------------- section 2 Numeros----------------------- */
+
+#section2 {
+    display: flex;
+    flex-direction: column;
+    min-height: 40vh;
+    padding: 5% 15%;
+    align-items: center;
+    background: var(--color1);
+    color: var(--text2);
+}
+
+#section2 h2 {
+    font-size: max(1.8em, 2.4vw);
+    margin-top: 20px;
+    font-weight: bolder;
+    text-transform: uppercase;
+}
+
+.section2-container {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    gap: 5%;
+}
+
+.item {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+    width: 300px;
+    min-height: 300px;
+    padding: 10px 10px;
+    text-transform: uppercase;
+}
+
+.item h3 {
+    color: #fff;
+    font-weight: bolder;
+    margin: 10px 0;
+}
+
+#section2 i {
+    font-size: 70px;
+}
+
+
+@media screen and (max-width: 850px) {
+    #section2 {
+        padding: 5% 5%;
+    }
+
+    .section2-container {
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+}
+
+/* ----------------- section3  Projetos ----------------- */
+#section3 {
+    min-height: 90vh;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+    padding: 10% 10%;
+}
+
+#section3 h2 {
+    text-transform: uppercase;
+    font-weight: bolder;
+    margin: 20px 0;
+    font-size: max(1.8em, 2.4vw);
+    color: var(--color1);
+}
+
+.section3-projetos {
+    align-items: center;
+    justify-content: center;
+    gap:20px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+#section3 img {
+    width: 100%;
+}
+
+@media screen and (max-width: 850px) {
+    .section3-projetos {
+        grid-template-columns: 1fr;
+    }
+}
+
+/* ----------------- section4 Resgate historias ----------------- */
+#section4 {
+    min-height: 70vh;
+    background: #fff;
+    background-image: url(/img/home/Projetos/cap2.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#section4 a {
+    color: #fff;
+    padding: 10px 6%;
+    font-size: max(3vh, 1.5em);
+    text-transform: uppercase;
+    letter-spacing: 5px;
+    font-weight: 600;
+    border: 4px solid #fff;
+    text-align: center;
+}
+
+#section4 a:hover {
+    background: #fff;
+    color: #17479E;
+    transition: ease-out 300ms;
+    transform: translateY(6px)
+}
+
+@media screen and (max-width: 850px) {
+    #section4 a {
+        padding: 10px;
+    }
+}
+
+/*----------------------- Section 5 Conscientização ----------------------*/
+
+#section5 {
+    min-height: 80vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 20px 0 100px 0;
+}
+
+#section5 h2 {
+    text-transform: uppercase;
+    font-size: max(1.8em, 2.4vw);
+    color: var(--color1);
+    margin: 4% 0;
+}
+
+.cards {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 80px;
+}
+
+.card {
+    width: 300px;
+}
+
+.consientizacao-titulo {
+    font-size: 30px;
+    margin-top: 50px;
+    padding: 0 2%;
+}
+
+.card a:hover {
+    text-decoration:underline;
+    color: #fff;
+}
+
+.card h3 {
+    color: #fff;
+}
+
+figcaption {
+    background:var(--color1);
+    background-image: linear-gradient(to right, #016FA7, var(--color1));
+    padding: 20px;
+    border-radius: 0 0 4px 4px;
+}
+
+.card-img {
+    width: 100%;
+    height: 100%;
+    transition: transform 0.3s ease;
+    object-fit: cover;
+
+}
+
+.image-zoom {
+    overflow: hidden;
+    width: 300px;
+    height: 250px;
+}
+
+
+.card img:hover {
+    transform: scale(1.2);
+    overflow: hidden;
+}
+
+.card a {
+    color: var(--text1);
+}
+
+@media screen and (max-width: 850px) {
+    .cards {
+        flex-direction: column;
+    }
+
+    .cards {
+        gap: 50px;
+    }
+}
+
+
+
+/* ----------------------------- FAQ -------------------------------- */
+
+.faq-section {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: #fdfdfd;
+    min-height: 80vh;
+    padding: 10vh 5%;
+    font-size: 20px;
+    background: var(--color1);
+}
+
+.faq-section h2 {
+    text-transform: uppercase;
+    font-size: max(1.8em, 2.4vw);
+    color: #fff;
+    margin-bottom: 50px;
+    text-align: center;
+}
+
+.faq {
+    box-shadow: 0 2px 48px 0 #0000000f;
+    border-radius: 4px;
+}
+
+
+.faq-title p {
+    padding: 0 190px;
+    margin-bottom: 10px;
+    
+}
+
+
+
+.faq-item .faq-header {
+    padding: 0;
+    background: none;
+    border: none;
+    -webkit-transition: all 0.3s ease;
+    -moz-transition: all 0.3s ease;
+    -o-transition: all 0.3s ease;
+    transition: all 0.3s ease;
+}
+
+.faq-item .faq-header:hover {
+    padding-left: 10px;
+    cursor: pointer;
+}
+
+.faq-item .faq-header .faq-title {
+    width: 100%;
+    text-align: left;
+    padding: 0;
+    padding-left: 30px;
+    padding-right: 30px;
+    font-weight: 400;
+    font-size: 15px;
+    letter-spacing: 1px;
+    color: #000000;
+    /*Visando preocupaÃ§Ã£o com abos navegadores aqui, por conta de muitos relatos de problemas*/
+    text-decoration: none !important;
+    -webkit-transition: all 0.3s ease;
+    -moz-transition: all 0.3s ease;
+    -o-transition: all 0.3s ease;
+    transition: all 0.3s ease;
+    cursor: pointer;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.faq-item .faq-header .faq-title .arrow {
+    display: inline-block;
+    width: 15px;
+    height: 15px;
+    border-top: 2px solid #3757e7;
+    border-right: 2px solid #3757e7;
+    transform: rotate(45deg);
+    transition: transform 0.3s ease;
+    margin-left: 10px;
+    text-align: center;
+
+}
+
+.faq-item.open .faq-header .faq-title .arrow {
+    transform: rotate(135deg);
+
+}
+
+.faq-title:before {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+
+}
+
+.faq-item .faq-content {
+    /* respostas */
+    max-height: 0;
+    overflow: hidden;
+    transition: max-height 0.6s ease;
+    line-height: 28px;
+
+    
+}
+
+.faq-item {
+    background: #fff;
+    margin: 25px 0;
+    
+
+}
+.faq-item.open .faq-content {
+    max-height: 1000px;
+    transition: max-height 0.8s ease;
+    
+}
+
+.pergunta {
+    font-size: 24px;
+    user-select: none;
+}
+
+.tit {
+    text-align: center;
+}
+
+.redesb {
+    font-size: 43px;
+    margin-top: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 25px;
+}
+
+.faq-content { /* respostas */
+    padding:0 19.5%;
+    background: #ececec;
+    color:black;
+
+}
+
+@media (max-width: 991px) {
+
+    .faq-title h2 {
+        font-size: 20px;
+        margin-left: 0;
+    }
+
+
+    .faq-title p {
+        padding: 0 10px;
+    }
+
+    .redesb {
+        font-size: 30px;
+        margin-top: 10px;
+        gap: 10px;
+    }
+
+
+    .faq-item .faq-header .faq-title {
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+
+    .faq-item .faq-content {
+        padding: 0 10px;
+    }
+
+    .faq-item .faq-header .faq-title .arrow {
+        width: 10px;
+        height: 10px;
+        margin-left: 5px;
+    }
+
+    .faq-item .faq-content {
+        text-align: left;
+    }
+
+}

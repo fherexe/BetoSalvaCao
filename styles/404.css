@@ -1,0 +1,49 @@
+main {
+  background-color: #fff;
+  ;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  text-align: center;
+  width: 100vw;
+  height: 100vh;
+  padding: 0 10%;
+}
+
+
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+
+h2 {
+  font-size: 30px;
+  padding: 0 5%;
+}
+
+
+.qoq-img {
+  width: 200px;
+  height: 250px;
+  margin-top: 30px;
+}
+
+
+/* Responsividade */
+@media screen and (max-width: 767px) {
+
+  h2 {
+    font-size: 22px;
+  }
+
+  .qoq-img {
+    width: 180px;
+    height: 220px;
+
+  }
+
+}

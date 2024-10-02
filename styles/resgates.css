@@ -1,0 +1,76 @@
+.wrapper {
+    width: 100%;
+    margin: 0 auto;
+}
+
+main {
+    display: block;
+}
+
+.container {
+    margin: 0 auto;
+    padding: 0 10%;
+}
+
+.container p {
+    max-width: 800px;
+    text-align: justify;
+}
+
+.container h1 {
+    font-size: max(2em, 3vw);
+    color: var(--color1);
+    font-weight: 600;
+    line-height: 45px;
+}
+
+
+section.modelo p {
+    margin-bottom: 40px;
+}
+
+section.modelo:last-child {
+    margin-bottom: 0;
+}
+
+section.modelo.content {
+    padding: 40px 0;
+}
+
+section.modelo.parallax {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 60vh !important;
+    width: 100%;
+    position: relative;
+    overflow: hidden;
+    background-position: 50% 50%;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -moz-background-size: cover;
+}
+
+section.modelo.parallax-1 {
+    background-image: url(/img/teste3.png);
+}
+
+section.modelo.parallaxe::after {
+    content: "";
+    height: 100%;
+    width: 100%;
+    position: relative;
+    z-index: 8;
+    background: linear-gradient(to bottom, rgba(0, 0, 0, 0) 0, rgba(255, 0, 0, 0) 30%, #0011ff 120%);
+}
+
+section.modelo.parallax-2 {
+    background-image: url(/img/teste5.png);
+}
+
+section.modelo.parallax-3 {
+    background-image: url(/img/teste8.png);
+}

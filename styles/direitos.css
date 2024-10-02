@@ -1,0 +1,21 @@
+main {
+    padding: 5%;
+}
+
+main img {
+    width: 100%;
+}
+
+ol {
+    padding: 0 12px;
+}
+
+
+h1 {
+    font-size: max(2em, 3vw);
+    color: var(--color1);
+    font-weight: 600;
+    line-height: 45px;
+}
+
+

@@ -1,0 +1,151 @@
+body {
+  overflow-x: hidden;
+}
+
+/*Equipe*/
+
+.nossa-equipe {
+  font-size: max(2em, 3vw);
+  color: var(--color1);
+  font-weight: 600;
+  line-height: 45px;
+  color: #1D2242;
+  margin: 10% 0 5% 11%;
+}
+
+.cards {
+  /** Container de card 1**/
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: row;
+  flex-wrap: wrap;
+  gap: 5%;
+}
+
+.cards2 {
+  /** Container de card 2**/
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: row;
+  flex-wrap: wrap;
+  gap: 5%;
+}
+
+.card {
+  margin: 15vh 0;
+  width: 300px;
+  height: 340px;
+  background-color: #1D2242;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  padding: 10px 20px 0px 20px;
+}
+
+.card .imagem {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.foto {
+  border: 3px solid #1D2242;
+  width: 180px;
+  border-radius: 50%;
+}
+
+.card h2 {
+  color: #fff;
+  font-size: 24px;
+  margin-top: 10px;
+}
+
+.card h3 {
+  color:var(--color4);
+}
+
+.foto {
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
+  margin-top: -104px;
+}
+
+
+.desc {
+  /** Paragrafo do texto **/
+  padding: 10px 0 10px 0;
+  font-size: 12px;
+  color: #fff;
+  max-width: 100%;
+  min-height: 13em;
+}
+
+.btn {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.btn-port {
+  border: none;
+  font-size: 19px;
+  font-weight: 600;
+  background-color: var(--color4);
+  padding: 4px 92px;
+  margin: 20px 0;
+  color: #fff;
+  text-align: center;
+  transition: 0.3s;
+  cursor: pointer;
+}
+
+.btn-port:hover {
+  background-color: #fff;
+  color: #1D2242;
+}
+
+.icons {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: row;
+  gap: 30px;
+
+}
+
+.icons img {
+  border-radius: none;
+  width: 36px;
+  height: 36px;
+  transition: .2s;
+  cursor: pointer;
+
+}
+
+.icons img:hover {
+  transform: scale(1.1);
+}
+
+
+/*Responsividade*/
+@media only screen and (max-width: 840px) {
+  .container2 {
+    background-color: #1D2242;
+    width: 100%;
+    height: 100%;
+    margin: 0 5%;
+    margin-top: 10px;
+    padding: 25px;
+  }
+
+  .nossa-equipe {
+    padding-top: 15vh;
+  }
+}
+
+
+
+

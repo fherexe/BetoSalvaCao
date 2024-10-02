@@ -1,0 +1,9 @@
+Pasta Raiz do TCC é guardada pelo Fernando e copias são enviadas para os colegas
+Backup da pasta Raiz do TCC é feita diariamente
+
+Arquivo CSS Global possui:
+Paleta de Cores
+Estilo do header
+Estilo do Footer
+
+

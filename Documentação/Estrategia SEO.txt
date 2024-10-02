@@ -1,0 +1,28 @@
+                                       ESTRATÉGIAS DE SEO:
+
+A forma "prática" seria pagar para aparecer nos topos do Google, mas o Google funciona como leilão e isso pode sair bem caro, tendo que pagar por dia 30, 40, 
+50 reais e dependendo até mais.
+
+A segunda forma é mais orgânica, a melhor forma seria trabalhar com DOMÍNIO, com palavras-chave interligadas com os textos do site, importante também ver nos sites Google Trend e Ubersuggest as palavras mais pesquisadas no momento para não ficar sem nexo e nosso site acabar sumindo da Internet.
+
+Também é importante ter o site responsivo, o Google odeia sites não responsivos e não recomenda.
+
+Outra alternativa também é se ligar com o tempo de uso das pessoas no site, deixar o site bem dinâmico e chamativo, com conteúdo original, com vídeos e fotos incluído no site.
+
+A velocidade do site também importa muito, o site tem que ser rápido e leve, sites que demoram muito que são pesados acabam não ficando visível para o Google. 
+
+Ferramentas para pesquisa do que citei e para salvar nossas vidas:
+
+      1. Google Analytics
+      2. Page Rank
+      3. Google meu negócio
+      4. Google Trend
+      4. Ubersuggest
+      5. Google Ads
+Pelo que vi, que achei mais importante, foi o negócio do tempo de uso pelas pessoas no site:
+O Google recomenda bastante os sites com maior tempo de uso pelas pessoas, então é importante deixar o site bem dinâmico, interativo e limpo.
+
+Existem ferramentas para ver esse tipo de informação, uma delas é o Google Analytics.
+Page Rank: Algoritmo do Google que posiciona os sites no Google conforme a qualidade e quantidade de links compartilhados. Fazer parcerias com blogs, grades portais de conteúdo e sites parceiro é uma alternativa.
+Google Meu Negócio: É a porta de entrada do Google de forma gratuita você pode aparecer nas pesquisas e no Google Maps, você pode disponibilizar informações do seu negócio, como telefone, endereço, sites e horários de funcionamento.
+
