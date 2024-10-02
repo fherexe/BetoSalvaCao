@@ -6,11 +6,12 @@
     padding: 0 10%;
     align-items: center;
     justify-content: left;
-    background-image: url(/img/home/bgmain.png);
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
     color: #fff;
+    background-image: url(/img/home/bgmain.png);
+
 }
 
 .section0-txt p {
